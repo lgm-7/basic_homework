@@ -21,21 +21,21 @@ if(age>=20) {
     console.log("성인")
 } else {console.log("미성년자")}
 // 문제 4: switch문을 사용하여 요일을 출력하세요.
-let w = null;
+let w = '3';
 switch(w) {
-    case 1:console.log("월")
+    case '1':console.log("월요일")
     break;
-    case 2:console.log("화")
+    case '2':console.log("화요일")
     break;
-    case 3:console.log("수")
+    case '3':console.log("수요일")
     break;
-    case 4:console.log("목")
+    case '4':console.log("목요일")
     break;
-    case 5:console.log("금")
+    case '5':console.log("금요일")
     break;
-    case 6:console.log("토")
+    case '6':console.log("토요일")
     break;
-    case 7:console.log("일")
+    case '7':console.log("일요일")
     break;
     default:
     console.log("잘못입력하셧습니다")

@@ -11,8 +11,8 @@ console.log(typeof bo)
 let undefinedVar;
 let nullVar = null;
 // 두 변수를 console.log로 출력하고, typeof 연산자를 사용하여 타입을 확인해보세요.
-console.log(undefinedVar,'-',nullVar)
-console.log(typeof undefinedVar,'-',typeof nullVar)
+console.log(undefinedVar,':',typeof undefinedVar)
+console.log(nullVar,':',typeof nullVar)
 // 문제 4: 좋아하는 음식 3가지를 배열에 저장하고 첫 번째 음식을 출력하세요.
 let food = ["치킨","피자","초밥"]
 console.log(food[0])

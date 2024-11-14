@@ -4,12 +4,14 @@
 for(let i=1; i<=10; i++){
     console.log(i)
 }
+console.log("-------------")
 // 문제 2: 1부터 10까지의 합을 계산하여 출력하세요.
 let sum = 0;
 for(let i=1; i<=10; i++){
     sum += i;
 }
 console.log(sum)
+console.log("-------------")
 // 문제 3: 구구단 3단을 출력하세요.
 let gu = 3;
 for(let i =1; i<10; i++){
