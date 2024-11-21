@@ -21,4 +21,4 @@ let person = {
     name : "홍길동",
     age : "23",
 }
-console.log(person)
+console.log(person.name, person.age)
