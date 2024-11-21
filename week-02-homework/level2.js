@@ -37,10 +37,11 @@ const objArrayFind = [
   console.log('-----------')
   // find를 이용하여 name 이 grape 인 객체를 찾기
 objArrayFind.find(function(obj){
-  if(obj.name === 'grape')
+  if(obj.name === 'grape'){
   console.log(obj)
+  }
 })
-
+console.log('-----------')
 //3.findindex 사용
 const objArrayFindIndex = [
     { name: 'apple', price: 100 },
