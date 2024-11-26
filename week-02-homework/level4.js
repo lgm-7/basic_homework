@@ -5,37 +5,21 @@ const objArray = [
     { name: 'grape', price: 300 },
   ]
   
-  // myFilter 를 구현하여 arr.filter 와 동일한 값이 나오도록 하기.
-
-  /*시도한 코드 */
+  // myFilter 를 구현하여 arr.filter 와 동일한 값이 나오도록 하기. 
   function myFilter(arr, callback) {
     // myFilter 구현
+    let answer = [];
     for(let i=0; i<arr.length; i++){
       if(callback(arr[i])){
-        return arr[i]
+        answer.push(arr[i])
       }
     }
+    return answer
   }
   const arrayFilter = myFilter(objArray,function(obj){
     return obj.price >= 200
   })
   console.log(arrayFilter)
-  
-  /*알아온 해답코드 */
-  // function myFilter(arr, callback) {
-  //   // myFilter 구현
-  //   answer = [];
-  //   for(let i=0; i<arr.length; i++){
-  //     if(callback(arr[i])){
-  //       answer.push(arr[i])
-  //     }
-  //   }
-  //   return answer
-  // }
-  // const arrayFilter = myFilter(objArray,function(obj){
-  //   return obj.price >= 200
-  // })
-  // console.log(arrayFilter)
 
 
 //2.map 구현
@@ -48,11 +32,9 @@ const objArrayMap = [
   // myMap를 구현하여 arr.map과 동일한 값이 나오도록 하기.
   function myMap(arr, callback) {
     // myMap 구현
-    answer = []
+    let answer = []
     for(let i=0; i<arr.length; i++){
-      if(callback(arr[i])){
         answer.push(arr[i].price)
-      }
     } 
     return answer
   }

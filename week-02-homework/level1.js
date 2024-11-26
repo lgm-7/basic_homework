@@ -21,6 +21,7 @@ function myIndexOf(arr, value) {
       return i
    }
   }
+  return -1
 }
 const index1 = arr.indexOf(3); // 2
 const index2 = myIndexOf(arr, 3); // 2
@@ -37,6 +38,7 @@ function myIncludes(arr, value) {
       return true
     }
   }
+  return -1
 }
 
 const includes1 = arrIncludes.includes(3); // true
