@@ -17,3 +17,13 @@ findTreasure
   .catch((fail)=>{
     console.log(fail)
   })
+
+const treasure = async () => {
+ try{
+      const success =await findTreasure
+      console.log(success)
+ } catch(fail){
+    console.log(fail)
+ }
+}
+treasure()
