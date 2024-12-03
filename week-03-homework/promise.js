@@ -1,4 +1,5 @@
-const findTreasure = new Promise((resolve, reject) => {
+
+const findTreasure = ()  => new Promise((resolve, reject) => {
     console.log("보물을 찾는 중입니다.")
     setTimeout(()=>{
         const success = Math.random() < 0.1
@@ -10,7 +11,7 @@ const findTreasure = new Promise((resolve, reject) => {
     },3000)
 })
 
-findTreasure
+findTreasure()
   .then((success)=>{
     console.log(success)
   })
@@ -20,7 +21,7 @@ findTreasure
 
 const treasure = async () => {
  try{
-      const success =await findTreasure
+      const success =await findTreasure()
       console.log(success)
  } catch(fail){
     console.log(fail)

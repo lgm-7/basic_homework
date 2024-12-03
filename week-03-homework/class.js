@@ -13,8 +13,8 @@ class Character {
     }
     levelUp(){
         this.level +=1
-        this.hp +=Math.floor(Math.random()*10)
-        this.atkpower +=Math.floor(Math.random()*10)
+        this.hp +=Math.floor(Math.random()*10)+1
+        this.atkpower +=Math.floor(Math.random()*10)+1
     }
 }
 
