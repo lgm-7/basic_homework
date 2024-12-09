@@ -1,0 +1,10 @@
+{
+  "name": "week-04-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
