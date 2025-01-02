@@ -107,7 +107,7 @@ router.delete("/users/:userId/follow", authMiddleware, (req, res) => {
 });
 
 //프로필 사진 업로드
-router.post("//users/:userId/profile-image", authMiddleware, (req, res) => {
+router.post("//users/profile-image", authMiddleware, (req, res) => {
   //프로필 사진 업로드 로직
 });
 
