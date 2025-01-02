@@ -102,3 +102,5 @@ router.post("//users/:userId/profile-image", (req, res) => {
 router.post("/posts/:postId/post-image", (req, res) => {
   //게시물 사진 업로드 로직
 });
+
+export default router;
