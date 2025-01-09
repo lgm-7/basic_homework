@@ -1,4 +1,4 @@
-import ResumesService from '../services/resumes.service';
+import resumesService from '../services/resumes.service';
 
 class ResumesController {
   #service;
@@ -82,4 +82,4 @@ class ResumesController {
   };
 }
 
-export default new ResumesController(ResumesService);
+export default new ResumesController(resumesService);

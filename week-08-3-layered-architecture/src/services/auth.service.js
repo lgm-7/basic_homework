@@ -1,4 +1,4 @@
-import AuthRepository from '../repositories/auth.repository.js';
+import authRepository from '../repositories/auth.repository.js';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { HTTP_STATUS } from '../constants/http-status.constant.js';
@@ -64,4 +64,4 @@ class AuthService {
     };
   };
 }
-export default new AuthService(AuthRepository);
+export default new AuthService(authRepository);

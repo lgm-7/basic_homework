@@ -1,4 +1,4 @@
-import AuthService from '../services/auth.service.js';
+import authService from '../services/auth.service.js';
 
 class AuthController {
   #service;
@@ -28,4 +28,4 @@ class AuthController {
   };
 }
 
-export default new AuthController(AuthService);
+export default new AuthController(authService);
